@@ -466,14 +466,48 @@ p {
   display: flex;
 }
 
-.footer-address {
+.footer__address-wrapper {
   padding-top: 60px;
   margin-right: 70px;
   width: 231px;
   height: 252px;
 }
 
-.footer-social {
+.footer .logo {
+  margin-bottom: 20px;
+}
+
+.footer__contacts {
+  font-style: normal;
+  line-height: 1.71;
+}
+
+.footer__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer__contacts .link {
+  display: block;
+  transition: color var(--time) var(--timing-function);
+}
+
+.footer__contacts .link:hover,
+.footer__contacts .link:focus {
+  color: var(--accent-blue-color);
+}
+
+.footer__address {
+  color: var(--white-color);
+}
+
+.footer__mail,
+.footer__tel {
+  color: var(--transp-color);
+}
+
+/* footer - social=================================== */
+
+.footer__social-wrapper {
   display: flex;
   flex-direction: column;
 
@@ -483,7 +517,7 @@ p {
   height: 252px;
 }
 
-.footer-social .title {
+.footer__social-wrapper .title {
   margin-bottom: 20px;
   font-size: inherit;
   line-height: 1.14;
@@ -492,12 +526,12 @@ p {
   color: var(--white-color);
 }
 
-.footer-social .social-list {
+.footer__social-wrapper .social-list {
   display: flex;
   justify-content: space-between;
 }
 
-.footer-social .social-link {
+.footer__social-wrapper .social-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -510,41 +544,9 @@ p {
   transition: background-color var(--time) var(--timing-function);
 }
 
-.footer-social .social-link:hover,
-.footer-social .social-link:focus {
+.footer__social-wrapper .social-link:hover,
+.footer__social-wrapper .social-link:focus {
   background-color: var(--accent-blue-color);
-}
-
-.footer .logo {
-  margin-bottom: 20px;
-}
-
-.contacts-list {
-  font-style: normal;
-  line-height: 1.71;
-}
-
-.contacts-list .item:not(:last-child) {
-  margin-bottom: 9px;
-}
-
-.contacts-list .link {
-  display: block;
-  transition: color var(--time) var(--timing-function);
-}
-
-.contacts-list .link:hover,
-.contacts-list .link:focus {
-  color: var(--accent-blue-color);
-}
-
-.address {
-  color: var(--white-color);
-}
-
-.contacts-list .mail,
-.contacts-list .tel {
-  color: var(--transp-color);
 }
 
 /* subsctiption  ================================ */
