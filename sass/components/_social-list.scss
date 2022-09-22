@@ -1,0 +1,29 @@
+
+ .social__list {
+   display: flex;
+   justify-content: space-between;
+ }
+ 
+ .social__link {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 44px;
+   height: 44px;
+   border-radius: 50%;
+ 
+   fill: var(--icon-color);
+   transition: fill var(--time) var(--timing-function),
+     background-color var(--time) var(--timing-function);
+
+     &:hover,
+     &:focus {
+      fill: var(--white-color);
+      background-color: var(--accent-blue-color);
+    } 
+ }
+
+.social__link--footer {
+   fill: var(--white-color);
+   background-color: var(--icon-foot-color);
+}

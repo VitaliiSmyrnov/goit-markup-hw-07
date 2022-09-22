@@ -1,0 +1,28 @@
+body {
+   font-family: 'Roboto', sans-serif;
+   font-size: var(--font-sz-14);
+   letter-spacing: var(--let-sp03);
+   color: var(--main-text-color);
+   background-color: var(--white-color);
+ }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
