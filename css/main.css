@@ -1,0 +1,32 @@
+:root {
+  --main-text-color: #212121;
+  --light-text-color: #757575;
+  --accent-blue-color: #2196f3;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --transp-color: rgba(255, 255, 255, 0.6);
+  --accent-bg-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
+  --nav-border-color: #ececec;
+  --item-border-color: #eeeeee;
+  --bg-icon: #f5f4fa;
+  --icon-color: #afb1b8;
+  --icon-foot-color: #43444d;
+  --backdrop-color: rgba(0, 0, 0, 0.2);
+  --font-w-500: 500;
+  --font-w-700: 700;
+  --font-w-900: 900;
+  --font-sz-12: 12px;
+  --font-sz-14: 14px;
+  --font-sz-16: 16px;
+  --font-sz-18: 18px;
+  --font-sz-20: 20px;
+  --font-sz-26: 26px;
+  --font-sz-36: 36px;
+  --font-sz-44: 44px;
+  --let-sp02: 0.02em;
+  --let-sp03: 0.03em;
+  --let-sp06: 0.06em;
+  --time: 250ms;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}/*# sourceMappingURL=main.css.map */

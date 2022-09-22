@@ -18,6 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/main.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
@@ -149,7 +150,7 @@
       <section class="section team">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
-          <ul class="team-list list">
+          <ul class="team__list list">
             <li class="team-item">
               <img src="./images/team1.jpg" alt="Ігор Дем'яненко" width="270" height="260" />
               <h3 class="title">Ігор Дем'яненко</h3>
@@ -366,31 +367,31 @@
           </address>
         </div>
         <div class="footer__social-wrapper">
-          <h3 class="title">приєднуйтесь</h3>
-          <ul class="social-list list">
-            <li class="social-item">
-              <a class="social-link link" href="#">
+          <h3 class="footer__title">приєднуйтесь</h3>
+          <ul class="footer__social list">
+            <li>
+              <a class="footer__link link" href="#">
                 <svg width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-item">
-              <a class="social-link link" href="#">
+            <li>
+              <a class="footer__link link" href="#">
                 <svg width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-item">
-              <a class="social-link link" href="#">
+            <li>
+              <a class="footer__link link" href="#">
                 <svg width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-item">
-              <a class="social-link link" href="#">
+            <li>
+              <a class="footer__link link" href="#">
                 <svg width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
@@ -398,19 +399,19 @@
             </li>
           </ul>
         </div>
-        <div class="subscription">
-          <h3 class="subscription-title">Підпишіться на розсилку</h3>
-          <form class="subscription-form" autocomplete="off">
+
+        <div class="footer__subscription">
+          <h3 class="footer__title">Підпишіться на розсилку</h3>
+          <form class="footer__form" autocomplete="off">
             <input
-              class="subscription-input"
+              class="footer__input"
               type="email"
               name="e-mail"
               placeholder="E-mail"
-              id="footer-mail"
             />
-            <button class="subscription-btn" type="submit">
+            <button class="footer__btn" type="submit">
               Підписатися
-              <svg width="24" height="24" class="subscription-icon">
+              <svg width="24" height="24" class="footer__subscription-icon">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
